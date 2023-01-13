@@ -1,11 +1,27 @@
-
+/*******
+Primary color #C8B568;
+green #C8B568
+brown#c89d68
+67, 51, 51
+***********/
 /***  header ***/
-header {
-    background-color: rgb(67, 51, 51);
+*{
+    color: #C8B568;
+    padding: 0px 10px;
+   /* background-image:url("/images/White logo - no background.png");
+    background-repeat: no-repeat;
+  background-size: cover;
+    background-position: center;*/
+}
+header {        
     color: white;
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 0px;
+}
+.logo img{
+    height: 250px;
+    width: 150px;
 }
 .main-nav a{
     padding: 0 15px;
@@ -14,6 +30,7 @@ div h1{
     margin-top: 100px;
 }
 #menu {
+    background-color: rgb(67, 51, 51);
     display: flex;
     border: 1px solid rgb(67, 51, 51);
     justify-content: space-between;
@@ -38,9 +55,8 @@ div h1{
 .sign-up{
     border: 1px solid white;
     padding:  5px 25px;
-    border-radius: 10%;
-    background-color: rgb(84, 84, 228);
-    color: white;
+    background-color: rgb(67, 51, 51);
+    color: #C8B568;
     font-weight: bold;
 
 }
@@ -54,8 +70,7 @@ a:link{
     width: 800px;
     height: 300px;
     border: 1px solid grey;
-    background-image: url(./images/images.png);
-    background-repeat: repeat;
+    
     
 }
 
@@ -76,7 +91,7 @@ a:link{
    
     width: 120px;
     height: 140px;
-    border: 3px solid rgb(103, 103, 242);
+    border: 3px solid rgb(67, 51, 51);
     border-radius: 15%;
  }
  .item0 .item1{
@@ -117,16 +132,17 @@ q{
 
 /* Fourth container */
 .header3{
+    background-color: #C8B568;
     width: auto;
     height: 250px;
 }
 #calltoaction{
-    background-color: rgb(101, 101, 232);
-    margin: 98px 100px;
-    color:white;
+    background-color: rgb(240, 233, 233, 0.947);
+    margin: 98px 100px; 
+    /*color:#81712f;*/
     height: 100px;
     padding: 50px 70px;
-    border-radius: 2%;
+    
 }
 #calltoaction h4{
     margin-bottom: 0px;
@@ -148,5 +164,6 @@ footer{
 footer p{
    text-align:center;
    padding: 20px 0;
-   
+   margin-top: 0px;
+   margin-bottom: 0px;
 }

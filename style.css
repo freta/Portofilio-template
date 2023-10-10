@@ -7,21 +7,25 @@ brown#c89d68
 /***  header ***/
 *{
     color: #C8B568;
-    padding: 0px 10px;
+    padding: 0px 0px;
+    margin: 0 0;
+    
    /* background-image:url("/images/White logo - no background.png");
     background-repeat: no-repeat;
   background-size: cover;
     background-position: center;*/
 }
+
 header {        
     color: white;
     display: flex;
     flex-direction: column;
     padding: 0px;
 }
-.logo img{
-    height: 250px;
-    width: 150px;
+
+#logo img{
+    height: 50px;
+    width: 50px;
 }
 .main-nav a{
     padding: 0 15px;
@@ -29,13 +33,15 @@ header {
 div h1{
     margin-top: 100px;
 }
+
 #menu {
-    background-color: rgb(67, 51, 51);
     display: flex;
-    border: 1px solid rgb(67, 51, 51);
     justify-content: space-between;
     align-items: center;
+    padding-left: 60px;
+    padding-right: 60px ;
 }
+
 #menu .main-nav{
     align-content: space-around;
 }
@@ -43,23 +49,27 @@ div h1{
     align-items: center;
 }
 
-#pans{
+#container{
     display: flex;
     height: 500px;   
+    
+}
+
+#pans1{
+    display: flex;
     align-content: center;
+    text-align-last: justify;
+    margin-left: 34em;
+    margin-top:10em;
 }
+
 #pans h1{
-    font-size: 3em;
+    font-size: 3.2em;
+}
+.img-fluid{
+        height: 30em;
 }
 
-.sign-up{
-    border: 1px solid white;
-    padding:  5px 25px;
-    background-color: rgb(67, 51, 51);
-    color: #C8B568;
-    font-weight: bold;
-
-}
 a:link{
     text-decoration: none;
     color:white;
@@ -70,66 +80,109 @@ a:link{
     width: 800px;
     height: 300px;
     border: 1px solid grey;
-    
-    
 }
 
 
 /* Second Container */
+.services{
+    margin: 0 0;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.services h2{
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
 
-.header1{
-    display: flex;
-    flex-direction: column;
-    padding: 5px 135px;
-    align-items: center;  
-    margin: 14px 20px;  
+svg{
+    width:"455.359";
+    height:"155.359";
 }
-.info{
-    display:flex;
-}
-.header1 .item1 {
-   
-    width: 120px;
-    height: 140px;
-    border: 3px solid rgb(67, 51, 51);
-    border-radius: 15%;
- }
- .item0 .item1{
-    align-content: center;
- }
 
-.info .item0 {
+.item1 p{
+    font-size: 23px;
+}
+#client{
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+}
+.d-flex{
     display: flex;
-    flex-direction: column;
-    align-items: center;
 }
-.info .item0 p{
-    font-size: 0.9em;
-    padding: 0px 20px;
+.block-47 .block-47-image img{
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display:block;
+    width:222px;
+    
 }
-#img1 #img3{
-    width: 126px;
-    height:146px;
+.block-47-quote{
+    padding: 23px 23px;
+    margin: 15px 15px;
+}
+.block-47-quote p{
+    font-size: 18px;;
+}
+ul{
+    list-style: none;
+    color: #C8B568;
+}
+li{
+    margin-top: 15px;
+    margin-bottom: 3px;
+    
+}
+.bio{
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-top:3em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    height: 330px;
+
 }
 
 /* Third Container */
-.header2{
+.container{
     background-color: rgba(240, 233, 233, 0.947);
-    height: 350px;
-
+    height: 30em;
+    margin: 0 0;
+    padding: 0 0;
 }
-.header2 #quatos{
-  padding: 155px;
-  margin: 0px 100px;
+#img-wrap{
+    height: 30em;
+     
 }
-q{
-  font-size: large;
-}
-#quatos .author{
-    align-self: flex-end;
-    font-weight: bold;
+#img-wrap .img-fluid{
+    width: 100%;
+    height:36em;
 }
 
+
+/* skills */
+.progress{
+    overflow: visible;
+    margin-bottom: 26px;
+    height: 4px;
+}
+.progress .progress-bar span {
+     background-color: #b29f4b;
+     position: absolute;
+     bottom: -20px;
+     font-size: 10px;
+     line-height: 10px;
+     padding: 2px 3px 2px 4px;
+     right:-1.4em;
+     border-radius: 2px;
+}
+.progress .progress-bar {
+    background-color: #b29f4b;
+    position: relative;
+    border-radius: 4px;
+    overflow: visible;
+}
 /* Fourth container */
 .header3{
     background-color: #C8B568;
@@ -166,4 +219,7 @@ footer p{
    padding: 20px 0;
    margin-top: 0px;
    margin-bottom: 0px;
+}
+.social{
+    display: inline;
 }

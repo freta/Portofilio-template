@@ -1,21 +1,19 @@
 /*******
+Color used
 Primary color #C8B568;
 green #C8B568
-brown#c89d68
-67, 51, 51
+brown #c89d68
+      #81712F
+
 ***********/
 /***  header ***/
 *{
-    color: #C8B568;
+    color: #81712F;
     padding: 0px 0px;
     margin: 0 0;
-    
-   /* background-image:url("/images/White logo - no background.png");
-    background-repeat: no-repeat;
-  background-size: cover;
-    background-position: center;*/
-}
 
+}
+/* header and hero page */
 header {        
     color: white;
     display: flex;
@@ -29,6 +27,7 @@ header {
 }
 .main-nav a{
     padding: 0 15px;
+    color: #81712F;
 }
 div h1{
     margin-top: 100px;
@@ -40,6 +39,11 @@ div h1{
     align-items: center;
     padding-left: 60px;
     padding-right: 60px ;
+    padding-top: 8px;
+    
+}
+div #menu{
+    padding-bottom: 13px;
 }
 
 #menu .main-nav{
@@ -48,48 +52,129 @@ div h1{
 #menu p{
     align-items: center;
 }
-
-#container{
-    display: flex;
-    height: 500px;   
-    
-}
-
-#pans1{
-    display: flex;
-    align-content: center;
-    text-align-last: justify;
-    margin-left: 34em;
-    margin-top:10em;
-}
-
-#pans h1{
-    font-size: 3.2em;
-}
-.img-fluid{
-        height: 30em;
-}
-
 a:link{
     text-decoration: none;
     color:#81712F;
 }
-.imgholder {
-    margin-top: 100px;
-    margin-right: 10px;
-    width: 800px;
-    height: 300px;
-    border: 1px solid grey;
+
+#container{
+    display: flex;
+    height: 500px;  
+    color: #bEA15E;
 }
 
+#pans1{
+    display: flex;
+    height:auto;
+    min-height: 440px;
+    height: calc(10vh);
+    text-align: center;
+    margin-top:16em;
+}
 
-/* Second Container */
-.services{
+#pans P{
+    font-size: 3.2em;
+}
+/*animation of the hero text*/
+#typewriter {
+    padding-left: 20px;
+    font-size: 30px;
+    color: #925435;
+    text-align: center;
+}
+.text{
+    font-size: 30px;
+}
+
+  .t ul,
+  li {
+
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+  }
+  
+  .t li {
+    list-style-type: none;
+    margin: 0px 0 1px 0;
+    height: 1em !important;
+    padding: 0px 0 0px 0;
+    font-size: 3em;
+    text-transform: uppercase;
+    width: 100%;
+    color: #222F29;
+  }
+  
+  .t {
+    animation-name: titleflip;
+    animation: titleflip 8s ease-in-out infinite;
+      }
+  
+  @-webkit-keyframes titleflip {
+    0%, 20% {
+    transform: translate(0px, -6.50em);
+    }
+    20%,
+    40% {
+   transform: translate(0px, -5.375em);
+    }
+    40%,
+    60% {
+    -webkit-transform: translate(0px, -3.44em);
+    }
+    60%,
+    80% {
+    transform: translate(0px, -3.44em);
+    }
+    80%,
+    100% {
+    transform: translate(0px, -0.315em);
+    }
+    100% {
+      transform: translate(0px, -9.50em);
+    }
+    0%{
+        transform: translate(0px, -6.50em); 
+    }
+  }
+header{
+    margin: 6.25em auto;
+    height: 2.6em;
+    overflow: hidden;
+    width: 100%;
+ }
+
+/*  Second row  *//* Second Container */
+.img-fluid{
+        height: 30em;
+}
+ /* hireme */
+ .btn-primary{
+    background-color: #925435;
+    border-color: #925435;
+
+ }
+ .btn-secondary{
+    background-color: #E0E3DA;
+    border-color: #E0E3DA;
+    color: #81712F;
+
+ }
+ .btn{
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.5rem;
+ }
+
+.testmony{
     margin: 0 0;
     padding-left: 3em;
     padding-right: 3em;
 }
-.services h2{
+.testmony h2{
     text-align: center;
     padding-top: 4em;
     padding-bottom: 2em;
@@ -102,6 +187,78 @@ svg{
 
 .item1 p{
     font-size: 23px;
+}
+/* skills */
+.progress{
+    overflow: visible;
+    margin-bottom: 26px;
+    height: 4px;
+}
+.progress .progress-bar span {
+     background-color: #b29f4b;
+     position: absolute;
+     bottom: -20px;
+     font-size: 10px;
+     line-height: 10px;
+     padding: 2px 3px 2px 4px;
+     right:-1.4em;
+     border-radius: 2px;
+}
+.progress .progress-bar {
+    background-color: #b29f4b;
+    position: relative;
+    border-radius: 4px;
+    overflow: visible;
+}
+.container{
+    background-color: rgba(240, 233, 233, 0.947);
+    height: 30em;
+    margin: 0 0;
+    padding: 0 0;
+}
+#img-wrap{
+    height: 30em;
+     
+}
+#img-wrap .img-fluid{
+    width: 100%;
+    height:41em;
+}
+
+
+/* services section *//*  third row */
+.services{
+    margin: 0 0;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+.services h2{
+    text-align: center;
+    padding-top: 4em;
+    padding-bottom: 2em;
+}
+/* Testmony section *//* fourth row */
+.testmony .col-md-6 .item1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+.clients .block-47-quote{
+    background-color: #222F29;
+    box-shadow: 4px 4px;
+    
+}
+.clients div P{
+    color: #E0E3DA;
+}
+
+cite{
+    color: #E0E3DA;;
+}
+
+.info blockquote a {
+    color: #E0E3DA;
 }
 #client{
     border-radius: 50%;
@@ -134,65 +291,97 @@ li{
     margin-bottom: 3px;
     
 }
-.bio{
+
+
+ /* blog section *//*  third section */
+ .blog-entries li a .date,
+ .blog-entries li a .read{
+    font-size: 12px;
+    letter-spacing: .2rem;
+    color: #E0E3DA;
+    text-transform: uppercase;
+ }
+.blog-entries{
+    padding-left: 0;
+    list-style: none;
+}
+
+ .blog-entries h3{
+    font-size: 1.75rem;
+ }
+ .blog-entries li a .read{
+    margin-left: 42em;
+ }
+
+ .imgholder {
+    margin-top: 100px;
+    margin-right: 10px;
+    width: 800px;
+    height: 300px;
+    border: 1px solid grey;
+}
+.blog{
+   opacity: 1;
+   transform: translate(0);
+}
+#blog-list .justify-content-center{
+    align-items: center;
+    justify-content: space-between ;
+     display: inline-flex;
+}
+.read{
+    padding-top: 32px;
+}
+/*  footer section */ /* footer bio */
+.footer-bio{
     padding-left: 5em;
     padding-right: 5em;
     padding-top:3em;
     margin-top: 4em;
     margin-bottom: 4em;
     height: 330px;
-
+    background-color: #E0E3DA; 
+    margin-bottom: 0px;
+}
+.footer-bio div{
+    color:#222F29;
+    font-size: 12px;
+}
+.footer-bio p{
+    color: #222F29;
+    padding-right: 34px;
+    font-size: 12px;
+    margin-bottom: 5em;
+}
+.col-lg-2 a{
+    color:#222F29;
 }
 
-/* Third Container */
-.container{
-    background-color: rgba(240, 233, 233, 0.947);
-    height: 30em;
-    margin: 0 0;
-    padding: 0 0;
+.col-lg-3 a{
+    color:#222F29;
 }
-#img-wrap{
-    height: 30em;
-     
-}
-#img-wrap .img-fluid{
-    width: 100%;
-    height:36em;
+.list-social{
+    list-style: none;
+    display: inline;
 }
 
 
-/* skills */
-.progress{
-    overflow: visible;
-    margin-bottom: 26px;
-    height: 4px;
-}
-.progress .progress-bar span {
-     background-color: #b29f4b;
-     position: absolute;
-     bottom: -20px;
-     font-size: 10px;
-     line-height: 10px;
-     padding: 2px 3px 2px 4px;
-     right:-1.4em;
-     border-radius: 2px;
-}
-.progress .progress-bar {
-    background-color: #b29f4b;
-    position: relative;
-    border-radius: 4px;
-    overflow: visible;
-}
-/* Fourth container */
+
+
+
+
+
+
 .header3{
     background-color: #C8B568;
     width: auto;
     height: 250px;
 }
+
 #calltoaction{
     background-color: rgb(240, 233, 233, 0.947);
     margin: 98px 100px; 
-    /*color:#81712f;*/
+    color:#81712f;
     height: 100px;
     padding: 50px 70px;
     
@@ -208,15 +397,21 @@ li{
    
 }
 
-/* footer Container */
+
+
+
+
+
+/* footer Container */ /*  last container */
 footer{
-    background-color: rgb(67, 51, 51);
+    background-color: #925435;
     height: 60px;
-    color: white;
+    
 }
 footer p{
-   text-align:center;
+   text-align:center !important;
    padding: 20px 0;
    margin-top: 0px;
    margin-bottom: 0px;
+   color: #E0E3DA;
 }

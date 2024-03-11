@@ -40,18 +40,20 @@ brown #c89d68
 }
 .btn-primary:hover {
     background-color: #81712f;
-    color: #e0e3da;
+    color: #81712f;
     background: transparent;
+    border-color: #81712f;
 }
 .btn-secondary {
     background-color: #e0e3da;
     border-color: #e0e3da;
-    color: #81712f;
+    color: #e0e3da; /*#81712f*/
     background: transparent;
 }
 .btn-secondary:hover {
     background-color: #81712f;
     color: #e0e3da;
+    border-color: #81712f;
 }
 
 .btn {

@@ -340,6 +340,8 @@ svg {
 }
 .clients div P {
     color: #e0e3da;
+      text-align: justify;
+    font-size: 14px;
 }
 
 cite {

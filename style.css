@@ -207,6 +207,7 @@ li {
 }
 .bio-diff P {
     padding-top: 3rem;
+    text-align: justify;
 }
 .bio-diff P .btn-primary {
     padding-left: 4rem;
@@ -255,6 +256,7 @@ li {
     line-height: 1.9;
     margin-bottom: 2rem;
     margin-right: 15rem;
+    text-align: justify;
 }
 svg {
     width: '455.359';

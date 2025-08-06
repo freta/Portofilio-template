@@ -40,7 +40,7 @@ brown #c89d68
 }
 .btn-primary:hover {
     background-color: #81712f;
-    color: #81712f;
+    color: #e0e3da;
     background: transparent;
     border-color: #81712f;
 }
@@ -51,7 +51,7 @@ brown #c89d68
     background: transparent;
 }
 .btn-secondary:hover {
-    background-color: #81712f;
+    /*background-color: #81712f;*/
     color: #e0e3da;
     border-color: #81712f;
 }

@@ -36,6 +36,7 @@ brown #c89d68
 .btn-primary {
     background-color: #925435;
     border-color: #925435;
+       color: #e0e3da;
     /*margin-top: -15rem; */
 }
 .btn-primary:hover {
@@ -138,7 +139,7 @@ div .menu {
 }
 a:link {
     text-decoration: none;
-    color: #e0e3da;
+    /* color: #e0e3da; */
 }
 
 #container {

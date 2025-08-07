@@ -291,7 +291,7 @@ svg {
     border-radius: 4px;
     overflow: visible;
 }
-#projects{
+#projects .gap-8 {
     margin-left: 20em;
     margin-right: 20em;
 

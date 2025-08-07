@@ -263,7 +263,9 @@ svg {
     width: '455.359';
     height: '155.359';
 }
-
+.item1{
+      padding: 10em 10em;
+}
 .item1 p {
     font-size: 13px;
 }

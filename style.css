@@ -309,8 +309,7 @@ svg {
 /* services section */ /*  third row */
 .services {
     margin: 0 0;
-    padding-left: 3em;
-    padding-right: 3em;
+  
 }
 .services h2 {
     text-align: center;

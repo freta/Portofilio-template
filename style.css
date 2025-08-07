@@ -263,12 +263,10 @@ svg {
     width: '455.359';
     height: '155.359';
 }
-.item1{
-    
-  
-}
+
 .item1 p {
     font-size: 13px;
+    padding: 10px 20px;
 }
 
 /* skills */

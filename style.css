@@ -326,6 +326,10 @@ svg {
     display: flex;
     text-align: center;
 }
+#projects{
+    margin-left: 20em;
+    margin-right: 20em;
+}
 
 /* Testmony section */ /* fourth row */
 .testmony .col-md-6 .item1 {

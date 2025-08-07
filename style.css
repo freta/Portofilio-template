@@ -102,13 +102,13 @@ header nav .left a {
 }
 header nav .left a:hover {
     color: #925435;
-}
+} 
 #logo img {
     height: 50px;
     width: 50px;
 }
 .main-nav {
-    margin-left: 26rem;
+    margin-left: 26rem;  
 }
 .main-nav a {
     padding: 0 15px;
@@ -290,6 +290,11 @@ svg {
     position: relative;
     border-radius: 4px;
     overflow: visible;
+}
+#projects{
+    margin-left: 20em;
+    margin-right: 20em;
+
 }
 .container {
     background-color: rgba(240, 233, 233, 0.947);

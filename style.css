@@ -465,6 +465,7 @@ footer p {
 }
 #contact {
     padding-left: 18rem;
+    padding-right: 18rem;
 }
 
 form input, form textarea, form button {

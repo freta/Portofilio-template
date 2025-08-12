@@ -382,7 +382,7 @@ svg {
 
 .clients .block-47-quote {
     background-color: #f9f9f9;
-    box-shadow: 4px 4px;
+    box-shadow: 4px 4px #f9f9f9;
 }
 .clients div P {
     color: #e0e3da;

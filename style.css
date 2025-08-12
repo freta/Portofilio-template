@@ -260,8 +260,8 @@ li {
     text-align: justify;
 }
 svg {
-    width: '455.359';
-    height: '155.359';
+    width: '355.359';
+    height: '105.359';
 }
 
 .item1 p {
@@ -475,7 +475,7 @@ li {
 
 /* footer Container */ /*  last container */
 footer {
-    background-color: #f9f9f9;
+    background-color: #bea15e;
     height: 60px;
     padding-left: 3rem;
     padding-right: 3rem;

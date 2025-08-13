@@ -224,7 +224,7 @@ li {
     padding-left: 3em;
     padding-right: 3em;
 }
-.testmony h2 #projects h2 {
+.testmony h2, #projects h2 {
     text-align: center;
     padding-top: 4em;
     padding-bottom: 2em;

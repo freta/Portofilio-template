@@ -229,7 +229,10 @@ li {
     padding-top: 4em;
     padding-bottom: 2em;
 }
-
+#projects{
+      padding-top: 4em;
+    padding-bottom:4em;
+}
 .hero {
     padding-top: 2rem;
     padding-bottom: 3rem;
